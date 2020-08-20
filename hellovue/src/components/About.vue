@@ -66,7 +66,9 @@ import Vue from "vue";
 export default class About extends Vue {
   baseUrl: string = "mylocalhost"; //MyAppConfig.getGvBaseUrl();
   theEnv: string = "test"; //process.env.NODE_ENV;
-  theVersion: string = "1.2.3..";
+
+  theVersion: string = "2.0";
+
   docUrl: string = "http://localhost:8085/v1/birta/doc/cm/a98f8631-cd4d-44/sa/e3d0d470-9ccc-4a/doc/cac7e11b-1e43-46/xmlContent/6808003240-15.3.2019.xml";
   mylinks = [
     { name: "Home", href: "/dashboard", target: "_self" },
